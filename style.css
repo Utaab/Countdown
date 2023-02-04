@@ -1,0 +1,31 @@
+body *{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.countdown-box {
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #e7e6e657;
+    border-radius: 10px;
+    box-shadow: 0px 0px 33px rgb(221 221 221 / 47%);
+}
+#countdownItem{
+    min-height: 2rem;
+    margin-bottom: 15px;
+    display: block;
+}
+.primary-btn{
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 0;
+    background: #001664;
+    color: #fff;
+    cursor: pointer;
+}
